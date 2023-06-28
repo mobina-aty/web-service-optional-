@@ -1,0 +1,318 @@
+*{
+    font-family: yekan;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+@font-face {
+    font-family: yekan;
+    src: url(./Yekan.ttf);
+}
+.header{
+    background-image: url(./GettyImages-1184334685.png);
+    background-repeat: no-repeat;
+    height: 30rem;
+    margin-top: 0;
+    padding: 0;
+    margin-left:  1rem  ;
+ 
+    
+
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.444);
+    color: white;
+    border-bottom: 5px solid rgb(18, 81, 18);
+}
+ li{
+    display: flex;
+    display:inline-block;
+    margin-right: 5rem;
+    font-size: 1.3rem;
+ 
+   
+  
+}
+.haha{
+    display: flex;
+    display:inline-block;
+    margin-right: 5rem;
+    font-size: 1.3rem;
+ 
+   
+  
+}
+.haha{
+    background-color: rgb(0, 153, 255);
+ padding: 20px ;
+}
+.left{
+    display: inline-block;
+    color: white;
+ 
+}
+li i{
+    margin-right: 35rem;
+    background-color: rgb(0, 153, 255);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 10px;
+    
+  
+}
+li:hover{
+ 
+color: black;
+cursor: pointer;
+}
+.headerend{
+    display: flex;
+  
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+.textphoto img{
+    border-radius: 10rem;
+   justify-content: center;
+   text-align: center;
+}
+.textphoto h3{
+    text-align: center;
+    justify-content: center;
+    width: 25rem;
+   font-size: 1rem;
+   
+}
+.textphoto{
+    text-align: center;
+    justify-content: center;
+}
+.khadamat{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+ 
+    flex-direction: row;
+    margin-right: 15rem;
+    margin-top: 2rem;
+     
+    margin-left: 0px;
+ 
+     
+  
+   
+}
+ .khadamatext{
+    margin-right: 42rem;
+    margin-top: 9rem; 
+    font-style: italic;
+    font-size: x-large;
+ 
+    
+ }
+
+
+.hole  {
+   background-color: lightgray;
+   
+    
+    
+}
+ 
+
+.cards{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.277), 0 6px 20px 0 rgba(0, 0, 0, 0.277);
+    margin: 20px;
+   text-align: justify;
+    margin-bottom: 50px;
+    
+   
+}
+.cards p:nth-last-child(1){
+   margin-right: 200px;
+   margin-bottom: 10px;
+   background-color: rgb(60, 146, 226);
+   border-radius: 7px;
+   padding: 5px;
+   margin-left:13px;
+   cursor: pointer;
+
+}
+.bigphoto{
+   position: relative;
+    height: 600px;
+   
+}
+.bigphoto img{
+    width: 1519px;
+}
+.boxtext{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    right: 8rem;
+     top: 10rem;
+     background-color: rgba(255, 255, 255, 0.463);
+     padding: 100px;
+     font-size:25px ;
+
+}
+.boxtext span{
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    top: 15rem;
+    position: absolute;
+    right: 24rem;
+    cursor: pointer;
+}
+ 
+.text1 , .text2{
+    
+    display: grid;
+    grid-template-rows: repeat(100px,4);
+    position: absolute;
+}
+.text1{
+    background-color: rgb(12, 66, 72);
+    width: 100px;
+    display: grid;
+    margin-top: 10rem;
+    margin-right: 1rem;
+    color: white;
+}
+.text2{
+    background-color: rgb(102, 101, 101);
+    width: 150px;
+    display: grid;
+    margin-top: 10rem;
+    margin-right: 7rem;
+    color: rgb(0, 0, 0);
+}
+.section1{
+    position: relative;
+    display: flex;
+    margin-right: 4rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.277), 0 6px 20px 0 rgba(0, 0, 0, 0.277);
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+ 
+}
+.employees{
+    margin-top: 20px;
+}
+.section1 img{
+    border-radius: 50rem;
+    margin-right: 2rem ;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+     
+    margin-right: 10rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+.section2{
+    position: relative;
+    display: flex;
+    margin-right: 4rem; 
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.277), 0 6px 20px 0 rgba(0, 0, 0, 0.277);
+    width: 300px;
+    height: 300px;
+}
+.section2 img{
+    border-radius: 100rem;
+    margin-right: 2rem ;
+}
+b{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-right:39rem;
+    margin-bottom: 30px;
+ text-align: center;
+}
+
+  
+.footr {
+    width: 100%;
+    height: 350px;
+    background: #182d37;
+    margin: 20px auto 0;
+}
+.main-footer{
+    margin: 0 auto;
+    width: 1100px;
+}
+.about{
+    width: 350px;
+   height:300px;
+    float: right;
+}
+.about h5 , .social h5 , .access h5{
+    font:16px 'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    padding:5px;
+    margin: 20px auto;
+}
+.about p{
+    font:13px/2 'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    text-align: justify;
+}
+.social{
+    width: 350px;
+    margin: 0 50px;
+    float: right;
+}
+.social ul li{
+    float: right;
+    margin: 10px 2px;
+}
+.social ul li img{
+border-radius: 50%;
+}
+
+.access{
+    width: 300px;
+    float: right;
+    display: block;
+    
+}
+.access ul li a{
+    font:'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    margin: 2px;
+    text-decoration: none;
+    
+}
+.access ul li a:hover{
+    color: #4c7d89;
+}
+.footer-bot{
+    width: 1100px;
+    height: 50px;
+    background: #2C3e50;
+    margin: 0 auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    clear: both;
+}
+.copyright{
+margin: 15px 20px;
+float: right;
+color: #e2e2e2;
+}
+.footer-bot .ui{
+    margin:15px 20px;
+    float: left;
+    color: #e2e2e2; 
+}
